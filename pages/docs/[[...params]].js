@@ -16,7 +16,7 @@ function Docs() {
       )
     }
   return (
-    <div>Docs  Home Page 1</div>
+    <div>Docs  Home Page 2</div>
   )
 }
 
