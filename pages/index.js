@@ -10,10 +10,14 @@ function Home() {
 
   return (
     <div>
-    <h1>Home Page</h1>
-    <h2><Link href={'/blog'}>Blog</Link></h2>
-    <h2><Link href={'/products'}>Products</Link></h2>
-    <button onClick={handleClick}>Place Order</button>
+      <h1>Home Page</h1>
+      <h2>Get Static Props Practice</h2>
+      <h4> <Link href="/users">Users</Link> </h4>
+      <h4> <Link href="/posts">Posts Page</Link> </h4>
+      <h2>Static Page</h2>
+      <h4><Link href={'/blog'}>Blog</Link></h4>
+      <h4><Link href={'/products'}>Products</Link></h4>
+      <button onClick={handleClick}>Place Order</button>
     </div>
   )
 }
